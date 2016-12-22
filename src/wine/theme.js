@@ -1,5 +1,6 @@
 import Mozaik          from './Mozaik.css'
 import dashboardHeader from './DashboardHeader.css'
+import dashboardPlayer from './DashboardPlayer.css'
 import notifications   from './Notifications.css'
 import widget          from './Widget.css'
 import widgetHeader    from './WidgetHeader.css'
@@ -16,6 +17,7 @@ export default {
     colors,
     root: Mozaik.root,
     dashboardHeader,
+    dashboardPlayer,
     notifications,
     widget,
     widgetHeader,

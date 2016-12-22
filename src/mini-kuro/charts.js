@@ -9,7 +9,7 @@ export default {
         legendColor:    '#fff',
     },
     grid: {
-        stroke:          '#fff',
+        stroke:          '#555',
         strokeDasharray: '1 3',
     },
 }
