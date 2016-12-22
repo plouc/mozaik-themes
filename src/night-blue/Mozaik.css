@@ -7,3 +7,7 @@
     font-size: 1.6vmin;
     line-height: 3vmin;
 }
+
+.root a {
+    color: #f6ecd0;
+}

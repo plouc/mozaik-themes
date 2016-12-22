@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,200,800|Montserrat:400,700");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,200,600,700|Montserrat:400,700");
 
 .root {
     font-family: 'Open sans', sans-serif;
@@ -6,4 +6,8 @@
     background: #ebf0f1;
     font-size: 1.6vmin;
     line-height: 3vmin;
+}
+
+.root a {
+    color: #2d7189;
 }

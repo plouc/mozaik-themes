@@ -2,17 +2,26 @@ const webpack           = require('webpack')
 const path              = require('path')
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
 
+const themes = [
+    'solarized-dark',
+    'night-blue',
+    'sunny',
+    'wine',
+    'snow',
+    'mini',
+    'mini-kuro',
+]
+
+const entry = {}
+themes.forEach(t => {
+    entry[t] = `./src/${t}/theme.js`
+})
+
 
 module.exports = {
     devtool: 'source-source-map',
     debug:   true,
-    entry:   {
-        'solarized-dark': './src/solarized-dark/theme.js',
-        'night-blue':     './src/night-blue/theme.js',
-        sunny:            './src/sunny/theme.js',
-        wine:             './src/wine/theme.js',
-        snow:             './src/snow/theme.js',
-    },
+    entry,
     output:  {
         path:         'themes',
         filename:     '[name].js',

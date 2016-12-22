@@ -2,8 +2,12 @@
 
 .root {
     font-family: 'Space Mono', Consolas, monospace;
-    color: #839496;
+    color: #90a2a4;
     background: #073642;
     font-size: 1.6vmin;
-    line-height: 2.4vmin;
+    line-height: 2.8vmin;
+}
+
+.root a {
+    text-decoration: underline;
 }
