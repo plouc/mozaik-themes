@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,400,600,800|Montserrat:400,700');
+
+.root {
+    font-family: 'Raleway', sans-serif;
+    color: #eedba5;
+    background: #1e2430;
+    font-size: 1.6vmin;
+    line-height: 3vmin;
+}
