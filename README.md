@@ -1,10 +1,10 @@
-# Mozaïk themes
-
 ![MOZAÏK][logo]
 
 [![License][license-image]][license-url]
 [![NPM version][npm-image]][npm-url]
 ![themes count][themes-count-image]
+
+# Mozaïk themes
 
 Official themes for Mozaïk.
 
