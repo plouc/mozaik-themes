@@ -40,7 +40,7 @@ module.exports = {
                 test:   /\.css$/,
                 loader: ExtractTextPlugin.extract(
                     'style',
-                    'css?modules&importLoaders=1&localIdentName=[name]__[local]_solarized_dark_[hash:base64:5]'
+                    'css?modules&importLoaders=1&localIdentName=[name]__[local]__[hash:base64:5]'
                 ),
             },
             {
